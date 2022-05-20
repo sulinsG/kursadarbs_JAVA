@@ -1,5 +1,8 @@
 package com.example.demo.models;
 
+
+
+//https://stackoverflow.com/questions/35140408/how-to-get-value-from-a-java-enum
 public enum Condition {
-	worn_out, used, good
+	good, used, worn_out,unusable 
 }

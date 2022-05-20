@@ -43,7 +43,7 @@ public class Book {
 	@Pattern(regexp="[A-Z]{1}[a-z]+", message = "Jabut pirmajam lielajam burtam, un parejie var but mazie") 	
 	private String author;
 
-	@Column(name="Author")
+	@Column(name="Title")
 	@NotNull
 	@Pattern(regexp="[A-Z]{1}[a-z]+", message = "Jabut pirmajam lielajam burtam, un parejie var but mazie")
 	private String title;
@@ -53,7 +53,6 @@ public class Book {
 	private Condition condition;
 	
 	private Rarity rarity;
-	
 	
 	
 

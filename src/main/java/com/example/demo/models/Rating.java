@@ -1,5 +1,5 @@
 package com.example.demo.models;
 
 public enum Rating {
-	god_awful, terrible, okay, good, terrific
+	one_star,two_stars,three_stars,four_stars,five_stars
 }
